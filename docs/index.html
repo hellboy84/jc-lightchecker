@@ -52,6 +52,16 @@
         font-weight: 700;
       }
 
+      .intro {
+        margin: -4px 0 18px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .intro p {
+        margin: 0 0 8px;
+      }
+
       .checked-at {
         color: var(--muted);
         font-size: 0.92rem;
@@ -202,6 +212,19 @@
         color: var(--muted);
       }
 
+      .site-footer {
+        margin-top: 32px;
+        padding: 14px 0 0;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.84rem;
+        text-align: center;
+      }
+
+      .site-footer p {
+        margin: 4px 0;
+      }
+
       @media (max-width: 800px) {
         header,
         .summary {
@@ -230,6 +253,11 @@
         <div class="checked-at" id="checkedAt">Loading latest status</div>
       </header>
 
+      <section class="intro" aria-label="このページについて">
+        <p>このページでは、以下の機関リポジトリの稼働状況を15分おきに確認しています。</p>
+        <p>個人的に運用しています。国立情報学研究所、JPCOAR、およびリンク先の機関リポジトリを運営する機関の公式なサービスではありません。これらの機関へのお問い合わせは行わないでください。</p>
+      </section>
+
       <section class="summary" id="summary" data-level="UNKNOWN">
         <p class="summary-message" id="summaryMessage">最新状態を読み込んでいます。</p>
         <div class="counts" id="counts"></div>
@@ -252,6 +280,12 @@
           </tbody>
         </table>
       </section>
+
+      <footer class="site-footer">
+        <p>作者: Takanori Hayashi</p>
+        <p>GitHub: <a href="https://github.com/tzhaya/jc-downdetector">tzhaya/jc-downdetector</a></p>
+        <p>ライセンス: <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></p>
+      </footer>
     </main>
 
     <script>
