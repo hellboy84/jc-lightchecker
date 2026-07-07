@@ -68,3 +68,11 @@ python scripts/analyze_history.py
 ## Dashboard
 
 `docs/index.html` は `docs/latest.json` を読み込み、対象サイト名、URL、HTTP ステータス、応答時間、判定結果、エラー内容を一覧表示します。GitHub Pages では `docs/` を公開対象にしてください。
+
+## AIの利用
+
+このアプリケーションの作成は、生成AIによるコーディング支援を受けています。
+
+## 作者
+
+- Takanori Hayashi
