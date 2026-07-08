@@ -1,12 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "jc-downdetector-trigger",
+  "name": "jc-lightchecker-trigger",
   "main": "src/index.js",
   "compatibility_date": "2026-07-08",
 
   "vars": {
     "GITHUB_OWNER": "tzhaya",
-    "GITHUB_REPO": "jc-downdetector",
+    "GITHUB_REPO": "jc-lightchecker",
     "GITHUB_WORKFLOW_FILE": "check.yml",
     "GITHUB_REF": "main"
   },

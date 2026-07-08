@@ -1,4 +1,4 @@
-# JAIRO Cloud downdetector 設計案
+# JAIRO Cloud Light Checker 設計案
 
 ## 1. 目的
 

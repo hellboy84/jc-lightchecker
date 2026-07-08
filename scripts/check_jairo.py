@@ -20,7 +20,7 @@ TIMEOUT_SEC = 20
 SLOW_SEC = 5
 VERY_SLOW_SEC = 15
 
-USER_AGENT = "jc-downdetector/0.1 (+https://github.com/tzhaya/jc-downdetector)"
+USER_AGENT = "jc-lightchecker/0.1 (+https://github.com/tzhaya/jc-lightchecker)"
 STATES = ("OK", "SLOW", "VERY_SLOW", "SERVER_ERROR", "TIMEOUT", "UNKNOWN")
 
 

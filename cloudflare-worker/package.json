@@ -1,5 +1,5 @@
 {
-  "name": "jc-downdetector-trigger",
+  "name": "jc-lightchecker-trigger",
   "version": "0.0.0",
   "private": true,
   "scripts": {

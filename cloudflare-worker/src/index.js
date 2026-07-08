@@ -38,7 +38,7 @@ async function triggerGitHubAction(env, controller) {
       "Accept": "application/vnd.github+json",
       "Authorization": `Bearer ${env.GITHUB_TOKEN}`,
       "X-GitHub-Api-Version": "2026-03-10",
-      "User-Agent": "jc-downdetector-cloudflare-worker",
+      "User-Agent": "jc-lightchecker-cloudflare-worker",
       "Content-Type": "application/json",
     },
     body: JSON.stringify({

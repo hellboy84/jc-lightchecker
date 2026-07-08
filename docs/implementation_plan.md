@@ -1,4 +1,4 @@
-# JAIRO Cloud Downdetector 実装計画
+# JAIRO Cloud Light Checker 実装計画
 
 ## 方針
 
