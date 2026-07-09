@@ -1,19 +1,19 @@
 {
-  "checked_at": "2026-07-09T16:22:57+09:00",
+  "checked_at": "2026-07-09T16:58:01+09:00",
   "thresholds": {
     "slow_sec": 5,
     "very_slow_sec": 15,
     "timeout_sec": 20
   },
   "summary": {
-    "level": "OK",
-    "message": "大きな異常は確認されていません。",
+    "level": "SLOW",
+    "message": "一部サイトで応答遅延または異常を確認しました。",
     "counts": {
-      "OK": 3,
+      "OK": 2,
       "SLOW": 0,
       "VERY_SLOW": 0,
       "SERVER_ERROR": 0,
-      "TIMEOUT": 0,
+      "TIMEOUT": 1,
       "UNKNOWN": 0
     },
     "total": 3,
@@ -24,18 +24,18 @@
       "name": "国際農研機関リポジトリ",
       "url": "https://jircas.repo.nii.ac.jp/",
       "primary": false,
-      "status_code": 200,
-      "elapsed_sec": 4.487,
-      "state": "OK",
-      "error_type": null,
-      "error": null
+      "status_code": null,
+      "elapsed_sec": 20.521,
+      "state": "TIMEOUT",
+      "error_type": "timeout",
+      "error": "Request timed out after 20 seconds."
     },
     {
       "name": "農研機構機関リポジトリ",
       "url": "https://repository.naro.go.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 4.553,
+      "elapsed_sec": 4.516,
       "state": "OK",
       "error_type": null,
       "error": null
@@ -45,7 +45,7 @@
       "url": "https://tsukuba.repo.nii.ac.jp/",
       "primary": false,
       "status_code": 200,
-      "elapsed_sec": 3.967,
+      "elapsed_sec": 2.679,
       "state": "OK",
       "error_type": null,
       "error": null
