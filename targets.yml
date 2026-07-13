@@ -1,4 +1,7 @@
 targets:
+  - name: 東邦大学学術リポジトリ
+    url: https://toho.repo.nii.ac.jp/
+    primary: false
   - name: 国際農研機関リポジトリ
     url: https://jircas.repo.nii.ac.jp/
     primary: false
