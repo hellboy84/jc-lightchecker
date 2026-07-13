@@ -1,3 +1,5 @@
+- [tzhaya](https://github.com/tzhaya) 様作成の https://github.com/tzhaya/jc-lightchecker をフォークしたものです。
+
 # JAIRO Cloud Light Checker
 
 JAIRO Cloud 上の機関リポジトリに対して、トップページへの軽量な HTTP GET を行い、応答状況を記録する小さな確認ツールです。
