@@ -1,4 +1,5 @@
 - [tzhaya](https://github.com/tzhaya) 様作成の https://github.com/tzhaya/jc-lightchecker をフォークしたものです。
+- https://hellboy84.github.io/jc-lightchecker/ (自機関版)
 
 # JAIRO Cloud Light Checker
 
